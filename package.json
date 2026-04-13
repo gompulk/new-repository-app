@@ -1,0 +1,29 @@
+{
+  
+  "name": "new-repository-app",
+  
+  "version": "1.0.0",
+  
+  "description": "Repository untuk aplikasi New Repository.",
+  
+  "main": "src/index.js",
+  
+  "scripts": {
+    
+    "start": "node src/index.js"
+    
+  },
+  
+  "license": "MIT"
+  
+}
+
+
+
+
+
+
+
+
+
+
