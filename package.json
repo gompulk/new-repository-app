@@ -4,19 +4,40 @@
   
   "version": "1.0.0",
   
-  "description": "Repository untuk aplikasi New Repository.",
+  "description": "Aplikasi Node.js sederhana siap rilis.",
   
   "main": "src/index.js",
   
+  "type": "commonjs",
+  
   "scripts": {
     
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    
+    "dev": "node --watch src/index.js",
+    
+    "test": "node --test"
     
   },
+  
+  "engines": {
+    
+    "node": ">=18"
+    
+  },
+  
+  "keywords": ["nodejs", "starter", "release-ready"],
   
   "license": "MIT"
   
 }
+
+
+
+
+
+
+
 
 
 
